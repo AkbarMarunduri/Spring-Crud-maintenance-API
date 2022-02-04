@@ -1,0 +1,13 @@
+version: "3.5"
+
+services:
+  java-maintenance-restful-postgres:
+    container_name: "maintenance-restful-postgres"
+    image: postgres:12-alpine
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_PASSWORD: maintenance
+      POSTGRES_USER: maintenance
+      POSTGRES_DB: maintenance-api
+

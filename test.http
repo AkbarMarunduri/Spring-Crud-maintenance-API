@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "id": "kepala12w2345",
+  "email": null,
+  "status": "dfwws"
+}
+
+
+
